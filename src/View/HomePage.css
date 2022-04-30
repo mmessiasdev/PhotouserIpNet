@@ -1,0 +1,49 @@
+.homePage{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+
+.homePage .header{
+    background-color: #F6F1F1;
+    width: min-content;
+    padding-inline: 75px;
+    padding-block: 20px;
+    border-bottom-right-radius: 45px;
+}
+
+.homePage .title{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homePage .title h1{
+    font-size: 25px;
+}
+
+
+.homePage .divUsers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.divUsers .users{
+    width: 75vw;
+    height: 700px;
+    background-image: linear-gradient(180deg, #D5ECF9, rgb(255, 255, 255));
+    border-top-right-radius: 50px;
+    padding-inline: 75px;
+    padding-top: 50px;
+}
+
+.divUsers .decoration{
+    width: 25vw;
+}
+.divUsers .decoration h1{
+    position: relative;
+    top: 250px;
+    font-size: 150px;
+    font-weight: 100;
+    transform: rotateZ(90deg);
+    opacity: 35%;
+}
