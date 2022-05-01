@@ -12,9 +12,9 @@
 -
 ## 4 - Maperar Usúarios e fotos dos funcionários no Código do Projeto ✅
 -
-## 5 - Estilizar fotos
+## 5 - Estilizar fotos ✅
 -
-## 6 - Programar evento click
+## 6 - Programar evento click ✅
 -
 ## 7 - Realizar Testes
 -

@@ -1,10 +1,46 @@
 .user{
     width: 100%;
-    height: 150px;
     /* background-color: aliceblue; */
     align-items: center;
-    display: flex   ;
+    display: flex;
     overflow: hidden;
+    margin-top: 20px;
+    height: 200px;
+    justify-content: space-between;
+}
+.userName{
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 20px;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.userName:hover{
+    background-color: #01BCEF;
+}
+.iconUser{
+    display: none;
+}
+.userName:hover .iconUser{
+    transition: all 1s;
+    position: relative;
+    animation: arrowAnimation .5s;
+    font-size: 30px;
+    left: 75px;
+    display: flex;
+}
+@keyframes arrowAnimation {
+    0%{
+        opacity: 0%;
+        left: 0px;
+    }
+    100%{
+        opacity: 100%;
+        left: 75px;
+    }
 }
 
 .user .avatar{
@@ -12,8 +48,34 @@
     width: 100px;
     background-color: black;
     border-radius: 50%;
+    display: flex;
+    overflow: hidden;
 }
 
 .user .name{
     margin-left: 40px;
+}
+
+
+
+
+.divPhotoUsers{
+    border-radius: 20px;
+    height: 170px;
+    width: 310px;
+    overflow: hidden;
+    box-shadow: 0px 5px 1px #01BCEF;
+}
+
+.divPhotoUsers img{
+    display: flex;
+    width: 310px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoDiv{
+    overflow: hidden;
+    height: 200px;
+    width: 310px;
 }

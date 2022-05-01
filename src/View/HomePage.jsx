@@ -19,11 +19,14 @@ const HomePage = () => {
                     {Data.map((results) => {
                         return <Users avatar={results.perfil} name={results.name} photo1={results.photo1} photo2={results.photo2} photo3={results.photo3} />
                     })}
-                </div>
+                </div>  
                 <div className="decoration">
                     <h1>Usuários</h1>
                 </div>
+                
             </div>
+    
+           
         </div>
     )
 }
