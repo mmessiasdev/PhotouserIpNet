@@ -16,6 +16,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-inline: 50px;
+    text-align: center;
 }
 .homePage .title h1{
     font-size: 25px;
@@ -29,22 +31,23 @@
 }
 .divUsers .users{
     width: 75vw;
-    height: 700px;
     background-image: linear-gradient(180deg, #D5ECF9, rgb(255, 255, 255));
     border-top-right-radius: 50px;
     padding-inline: 75px;
     padding-top: 50px;
-  
+    padding-bottom: 100px;
 }
 
 .divUsers .decoration{
+    padding-top: 200px;
     width: 25vw;
+    display: flex;
+    justify-content: center;
 }
 .divUsers .decoration h1{
     position: relative;
-    top: 250px;
     font-size: 150px;
     font-weight: 100;
-    transform: rotateZ(90deg);
     opacity: 35%;
+    writing-mode: vertical-rl;
 }
