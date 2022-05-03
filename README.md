@@ -18,4 +18,4 @@
 -
 ## 7 - Realizar Testes ✅
 -
-## 8 - Publicar versão final no Git.
+# Publicar versão final e fazer PullRequent no projeto pai. ✅

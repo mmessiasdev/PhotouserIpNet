@@ -1,13 +1,24 @@
+// Tela de usuários
+
 import { useState } from "react";
+
+// Icone de seta para direita
 import { BsChevronDoubleRight } from 'react-icons/bs';
 
-import Slender from 'react-slick'
+
+// Biblioteca de carousel e animação de fotos
+import Slender from 'react-slick';
 
 
 const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
 
+
+     // Hooks da funcionalidade Clique da aparição de fotos.
     const [userPhoto, setUserPhoto] = useState(false);
 
+
+
+    // Config da funcionalidade Carousel - Slick
     var settings = {
         dots: true,
         infinite: true,
@@ -27,6 +38,9 @@ const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
                     <BsChevronDoubleRight className="iconUser" />
                 </article>
 
+
+                {/* Div responável pelo aparecimento e desaparecimento da galería dos usuários. */}
+
                 {userPhoto && (
                     <div className="photoDiv" id="photoDiv" data-aos="fade-right">
                         <Slender {...settings}>
@@ -42,7 +56,6 @@ const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
                         </Slender>
                     </div>
                 )}
-
             </div>
         </div>
     )
