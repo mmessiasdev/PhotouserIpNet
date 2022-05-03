@@ -26,8 +26,6 @@ const HomePage = () => {
 
             </div>
             <footer>
-
-
                 <div className="footerDiv">
                     <div className="footerText">
                         <h3>M. Messias</h3>
@@ -40,8 +38,6 @@ const HomePage = () => {
                     </div>
                 </div>
             </footer>
-
-
         </div>
     )
 }

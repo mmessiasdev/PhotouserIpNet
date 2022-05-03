@@ -16,6 +16,6 @@
 -
 ## 6 - Programar evento click ✅
 -
-## 7 - Realizar Testes
+## 7 - Realizar Testes ✅
 -
 ## 8 - Publicar versão final no Git.

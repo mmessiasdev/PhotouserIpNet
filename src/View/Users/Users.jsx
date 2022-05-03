@@ -1,12 +1,7 @@
-// 1 - Criar Json
-// 2 - Mapaer Json 
-
 import { useState } from "react";
-import Slider from "react-slick";
-
 import { BsChevronDoubleRight } from 'react-icons/bs';
 
-
+import Slender from 'react-slick'
 
 
 const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
@@ -23,21 +18,20 @@ const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
         pauseOnHover: true
     }
 
-
     return (
         <div className="contUsers">
             <div className="user">
-                <div className="userName" onClick={() => setUserPhoto((o) => !o)}>
-                    <div className="avatar"><img src={avatar} alt="" srcset="" /></div>
-                    <div className="name">{name}</div>
-                    <BsChevronDoubleRight className="iconUser"/>
-                </div>
+                <article title="userName" className="userName" onClick={() => setUserPhoto((o) => !o)}>
+                    <div className="avatar"><img src={avatar}/></div>
+                    <div className="name" id="name">{name}</div>
+                    <BsChevronDoubleRight className="iconUser" />
+                </article>
 
                 {userPhoto && (
-                    <div className="photoDiv" data-aos="fade-right">
-                        <Slider {...settings}>
+                    <div className="photoDiv" id="photoDiv" data-aos="fade-right">
+                        <Slender {...settings}>
                             <div className="divPhotoUsers">
-                                <img src={photo1} alt="" />
+                                <img src={photo1} alt="userPhoto" />
                             </div>
                             <div className="divPhotoUsers">
                                 <img src={photo2} alt="" />
@@ -45,7 +39,7 @@ const Users = ({ avatar, name, photo1, photo2, photo3 }) => {
                             <div className="divPhotoUsers">
                                 <img src={photo3} alt="" />
                             </div>
-                        </Slider>
+                        </Slender>
                     </div>
                 )}
 
