@@ -8,12 +8,20 @@ import Data from '../Model/users.json'
 const HomePage = () => {
     return (
         <div className="homePage">
+
+
+              {/* Header da página */}
+
             <div className="header">
                 <h1>Photouser</h1>
             </div>
             <div className="title">
                 <h1>Clique em um usuário e veja suas fotos. <font color="#6d6d6d">Deslize o mouse para passar as fotos.</font></h1>
             </div>
+
+
+             {/* Div responsãvel por renderizar os componentes de Usuários e Fotos */}
+
             <div className="divUsers">
                 <div className="users">
                     {Data.map((results) => {
@@ -25,6 +33,10 @@ const HomePage = () => {
                 </div>
 
             </div>
+
+
+             {/* Parte inferior da página */}
+
             <footer>
                 <div className="footerDiv">
                     <div className="footerText">

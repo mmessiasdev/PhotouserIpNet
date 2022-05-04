@@ -1,7 +1,7 @@
 import {render, screen, userEvent} from '../../Controller/Tests/index';
 import Users from "./Users";
 
-// --
+// -- IMPORTANTE --
 // Restire ou comente as linhas de código Slender/Slick Carousel ao realizar os testes ("./Users" -> Linha 4, 32, 42).
 // --
 
