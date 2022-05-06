@@ -10,7 +10,7 @@
 
 #### 2 - Codar Interface React ✅
 
-- #### 3 - Desenvoler Api interna ✅
+#### 3 - Desenvoler Api interna ✅
 - ##### Procurar Funcionários IpNet com avatar de paleta Azul no Linkedin
 - ##### Verificar se Perfil do Usuário é aberto no Instagram
 - ##### Porurar fotos dos funcionários que se adapate de forma agradavél ao formato Thumb
